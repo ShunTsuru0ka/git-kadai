@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* PC用 CSS*/
+@media screen and (min-width: 737px){
+
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#headerInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+header li+li{
+    margin-left: 30px;
+}
+
+header a{
+    color: #fff;
+}
+
+h1{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 span{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+#pankuzu{
+    margin: 20px;
+}
+
+#pankuzu a:hover{
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    width: 75%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+section img{
+    width: 40%;
+    align-self: flex-start;
+}
+
+#contentText{
+    margin-left: 40px;   
+}
+
+#contentText h2{
+    margin-bottom: 15px;
+}
+
+#contact{
+    background-color: #efefef;
+    text-align: center;
+    padding: 60px;
+}
+
+#contact h2{
+    color: rgb(80, 24, 154);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact span{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+#contact p{
+    margin-bottom: 40px;
+}
+
+#moreBtn{
+    background-color: #8d3fc1;
+    border: #8d3fc1 solid 2px;
+    color: #fff;
+    padding: 15px;
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#moreBtn:hover{
+    background-color: #fff;
+    border: #8d3fc1 solid 2px;
+    color: #8d3fc1;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 60px;
+    font-weight: bold;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer li+li{
+    margin-left: 30px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer p{
+    color: #7b7b7b;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+}
+
+@media  screen and (max-width: 736px){
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header a{
+    color: #fff;
+}
+
+header nav{
+    display: none;
+}
+h1{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 span{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+#pankuzu{
+    width: 90%;
+    margin: 10px 30px;
+}
+
+#pankuzu a:hover{
+    text-decoration: underline;
+}
+
+section{
+    width: 90%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+section img{
+    align-self: flex-start;
+    width: 100%;
+}
+
+#contentText h2{
+    margin: 10px 0;
+    text-align: center;
+}
+
+#contact{
+    background-color: #efefef;
+    text-align: center;
+    padding: 60px;
+}
+
+#contact h2{
+    color: rgb(80, 24, 154);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact span{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+#contact p{
+    margin-bottom: 40px;
+}
+
+#moreBtn{
+    background-color: #8d3fc1;
+    border: #8d3fc1 solid 2px;
+    color: #fff;
+    padding: 15px;
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#moreBtn:hover{
+    background-color: #fff;
+    border: #8d3fc1 solid 2px;
+    color: #8d3fc1;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 60px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+footer li+li{
+    margin-left: 30px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer p{
+    color: #7b7b7b;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+}
